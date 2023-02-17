@@ -1,7 +1,7 @@
 class Media:
     Arraynotas=[]
     def notas(self):
-        return self.notas
+        return self.Arraynotas
     
     def add(self, number):
         if number < 0 or number >10:
