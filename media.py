@@ -6,10 +6,10 @@ class Media:
     def add(self, number):
         if number < 0 or number >10:
             raise ValueError
-        self.notas.append(number)
+        self.Arraynotas.append(number)
     
     def media(self):
         suma = 0
-        for i in self.notas:
+        for i in self.Arraynotas:
             suma = suma + i
-        return suma/len(self.notas)
+        return suma/len(self.Arraynotas)
